@@ -1,0 +1,53 @@
+main {
+  width: calc(100vw - 2rem);
+  margin: auto;
+  margin-top: 30rem;
+  margin-bottom: 1rem;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px #4a4a4a;
+  background-color: white;
+}
+
+.about {
+  background-color: $bg-dark;
+  color: white;
+  padding: 1rem;
+  border-radius: 7px 7px 0 0;
+  line-height: 1.5;
+  span {
+    color: $gradient-color-2;
+  }
+}
+
+.myprocess {
+  padding: 1rem;
+  h2,
+  li {
+    color: $bg-dark;
+  }
+  li {
+    list-style: none;
+    text-indent: -0.8rem;
+    line-height: 1.5;
+  }
+
+  li::before {
+    content: '\2022';
+    color: $gradient-color-1;
+  }
+  ul {
+    padding-left: 1rem;
+  }
+}
+
+.qualifications {
+  padding: 1rem;
+  background-color: $bg-dark;
+  p {
+    line-height: 1.5;
+  }
+  span {
+    font-size: 0.8rem;
+    color: $gradient-color-2;
+  }
+}

@@ -1,0 +1,55 @@
+$gradient-color-1: #0c8aa0;
+$gradient-color-2: #b1f6ff;
+$icon-color: #108ca2;
+$icon-color-light: #84d8e5;
+$cta-color: #51b7c8;
+$emphasis: #91e1ed;
+$bg-dark: #4a4a4a;
+$bg-dark-2: #3c697e;
+$filter-color: #79f5ff;
+$dark-font: #4a4a4a;
+
+// Margin & Padding
+$spaceamounts: (1, 2, 3, 4, 5);
+
+@each $space in $spaceamounts {
+  // All around margin
+  .m-#{$space} {
+    margin: #{$space}rem;
+  }
+
+  // Vertical Margin
+  .my-#{$space} {
+    margin: #{$space}rem 0;
+  }
+
+  .mb-#{$space} {
+    margin-bottom: #{$space}rem;
+  }
+
+  .mt-#{$space} {
+    margin-top: #{$space}rem;
+  }
+
+  // All around Padding
+  .p-#{$space} {
+    padding: #{$space}rem;
+  }
+
+  // Vertical Padding
+  .py-#{$space} {
+    padding: #{$space}rem 0;
+  }
+}
+// Hide
+
+.hide-mobile {
+  display: none;
+}
+
+// Flexbox
+
+@mixin flex($row) {
+  display: flex;
+  flex-direction: $row;
+}

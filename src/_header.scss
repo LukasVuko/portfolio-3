@@ -1,0 +1,45 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 37.5rem;
+  background: linear-gradient(
+    to top left,
+    $gradient-color-1,
+    $gradient-color-2
+  );
+  padding: 1.2rem;
+  h1 {
+    color: white;
+  }
+  span {
+    display: block;
+    background-color: $icon-color;
+    width: 140px;
+    height: 7px;
+    border-radius: 25px;
+  }
+  p {
+    color: white;
+  }
+  ul {
+    list-style: none;
+    @include flex(row);
+
+    li {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.cta {
+  display: block;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  border-radius: 50%;
+}
