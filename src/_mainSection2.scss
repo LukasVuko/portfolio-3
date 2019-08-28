@@ -53,12 +53,7 @@
   -webkit-transition: all 0.25s;
   -o-transition: all 0.25s;
   transition: all 0.25s;
-  -webkit-transform: translate3d(0, 0, 1px);
-  transform: translate3d(0, 0, 1px);
   background-color: $gradient-color-2;
-  &:hover {
-    background-size: 140% auto;
-  }
   display: flex;
   ul {
     @include flex(row);
