@@ -35,7 +35,6 @@
       border-radius: 0 7px 0 0;
     }
     .qualifications {
-      border-radius: 0 0 0 7px;
     }
   }
   .hide-desktop {
@@ -49,6 +48,10 @@
   }
   .brbr {
     border-radius: 0 0 7px 0;
+  }
+  .column-1 {
+    border-radius: 0 0 0 7px;
+    overflow: hidden;
   }
 }
 
