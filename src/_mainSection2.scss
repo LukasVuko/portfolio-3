@@ -71,3 +71,17 @@
     margin-right: 1rem;
   }
 }
+
+.project-bottom {
+  p {
+    color: white;
+    text-align: center;
+    &:last-child {
+      color: $dark-font;
+    }
+  }
+}
+
+.bg {
+  background-color: $bg-dark-2;
+}
