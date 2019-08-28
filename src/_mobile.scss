@@ -32,12 +32,24 @@
     .about {
       border-radius: 7px 0 0 0;
     }
+    .portfolio {
+      border-radius: 0 7px 0 0;
+    }
     .qualifications {
       border-radius: 0 0 0 7px;
     }
   }
   .hide-desktop {
     display: none;
+  }
+  .brleft {
+    border-radius: 0 7px 7px 0;
+  }
+  .brtl {
+    border-radius: 0 7px 0 0;
+  }
+  .brbr {
+    border-radius: 0 0 7px 0;
   }
 }
 
