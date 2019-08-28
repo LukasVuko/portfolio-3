@@ -85,3 +85,23 @@
 .bg {
   background-color: $bg-dark-2;
 }
+
+.project:nth-child(1) .project-top {
+  background: linear-gradient(rgba(121, 245, 255, 0.2)),
+    url(/img/directory.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.project:nth-child(2) .project-top {
+  background: linear-gradient(rgba(121, 245, 255, 0.2)), url(/img/todo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.project:nth-child(3) .project-top {
+  background: linear-gradient(rgba(121, 245, 255, 0.2)), url(/img/calc.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

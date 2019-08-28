@@ -1,10 +1,8 @@
 var acc = document.getElementsByClassName('accordion');
-var i;
-console.log(acc);
-for (i = 0; i < acc.length; i++) {
-  console.log(i);
+
+for (let i = 0; i < 3; i++) {
   acc[i].addEventListener('click', function() {
-    let panel = document.getElementsByClassName('panel')[0];
+    let panel = document.getElementsByClassName('panel')[i];
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
       panel.style.padding = '0';

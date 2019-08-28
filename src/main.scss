@@ -11,6 +11,12 @@
 a {
   cursor: pointer;
 }
+footer {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #4a4a4a;
+  font-size: 0.8rem;
+}
 
 @import 'typography';
 @import 'btns';
